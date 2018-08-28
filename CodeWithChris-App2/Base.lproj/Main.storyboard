@@ -21,14 +21,16 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="landscape" translatesAutoresizingMaskIntoConstraints="NO" id="DGn-rk-nU8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cpv-Lf-GsB">
-                                <rect key="frame" x="101" y="364" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cpv-Lf-GsB">
+                                <rect key="frame" x="0.0" y="358" width="375" height="128"/>
                                 <color key="backgroundColor" red="0.046733322538860089" green="0.046733322538860089" blue="0.046733322538860089" alpha="0.80388974471830987" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Cpv-Lf-GsB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3KV-dZ-L53"/>
+                            <constraint firstAttribute="bottom" secondItem="Cpv-Lf-GsB" secondAttribute="bottom" id="EQI-Zj-ftH"/>
+                            <constraint firstAttribute="trailing" secondItem="Cpv-Lf-GsB" secondAttribute="trailing" id="QR2-Ge-Mvd"/>
                             <constraint firstItem="DGn-rk-nU8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UNT-ZP-1UI"/>
                             <constraint firstAttribute="trailing" secondItem="DGn-rk-nU8" secondAttribute="trailing" id="bK4-kU-Z3y"/>
                             <constraint firstItem="DGn-rk-nU8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oBE-lq-VDy"/>
