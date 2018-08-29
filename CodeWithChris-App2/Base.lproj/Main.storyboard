@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,8 +22,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="landscape" translatesAutoresizingMaskIntoConstraints="NO" id="DGn-rk-nU8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cpv-Lf-GsB">
-                                <rect key="frame" x="0.0" y="358" width="375" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpv-Lf-GsB">
+                                <rect key="frame" x="0.0" y="467" width="375" height="200"/>
                                 <color key="backgroundColor" red="0.046733322538860089" green="0.046733322538860089" blue="0.046733322538860089" alpha="0.80388974471830987" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
@@ -35,6 +36,7 @@
                             <constraint firstAttribute="trailing" secondItem="DGn-rk-nU8" secondAttribute="trailing" id="bK4-kU-Z3y"/>
                             <constraint firstItem="DGn-rk-nU8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oBE-lq-VDy"/>
                             <constraint firstAttribute="bottom" secondItem="DGn-rk-nU8" secondAttribute="bottom" id="pSY-pn-mTP"/>
+                            <constraint firstItem="Cpv-Lf-GsB" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="skk-dq-JZj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
