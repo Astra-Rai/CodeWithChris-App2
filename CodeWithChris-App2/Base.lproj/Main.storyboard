@@ -25,15 +25,28 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpv-Lf-GsB">
                                 <rect key="frame" x="0.0" y="467" width="375" height="200"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8B-AT-cEa">
-                                        <rect key="frame" x="144" y="76" width="62" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City by the Sea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8B-AT-cEa">
+                                        <rect key="frame" x="20" y="20" width="335" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a Beautiful City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5I-yZ-lFA">
+                                        <rect key="frame" x="20" y="54" width="335" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.046733322538860089" green="0.046733322538860089" blue="0.046733322538860089" alpha="0.80388974471830987" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="T5I-yZ-lFA" firstAttribute="leading" secondItem="Cpv-Lf-GsB" secondAttribute="leading" constant="20" id="5ps-nR-L0e"/>
+                                    <constraint firstItem="e8B-AT-cEa" firstAttribute="leading" secondItem="Cpv-Lf-GsB" secondAttribute="leading" constant="20" id="Dyj-e6-2dD"/>
+                                    <constraint firstAttribute="trailing" secondItem="T5I-yZ-lFA" secondAttribute="trailing" constant="20" id="S2Z-yr-cdC"/>
+                                    <constraint firstItem="T5I-yZ-lFA" firstAttribute="top" secondItem="e8B-AT-cEa" secondAttribute="bottom" constant="10" id="Uti-pg-GNN"/>
+                                    <constraint firstItem="e8B-AT-cEa" firstAttribute="top" secondItem="Cpv-Lf-GsB" secondAttribute="top" constant="20" id="kaa-m3-DPz"/>
+                                    <constraint firstAttribute="trailing" secondItem="e8B-AT-cEa" secondAttribute="trailing" constant="20" id="lwx-Go-FIc"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -52,6 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="21.600000000000001" y="29.23538230884558"/>
         </scene>
     </scenes>
     <resources>
